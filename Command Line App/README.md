@@ -1,13 +1,13 @@
 # CL-Weather-App
 
 
-### Tells the Weather Forecast of a place using mapbox and WeatherStack API.
-
-**This is a Command Line app** 
+**This is a Command Line app of this website** 
 
 
 **To install npm modules -> npm install**
 
+  To get weather of a place :- 
+  
 - Command -> node app.js "Place Name" 
 
 
