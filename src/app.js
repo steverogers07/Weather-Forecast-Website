@@ -6,6 +6,7 @@ const forecast = require('./utils/forecast')
 const { ESRCH } = require('constants')
 
 const app = express()
+const PORT = process.env.PORT || 3000
 
 // Define paths for Expresss config
 const publicDirectoryPath = path.join(__dirname, '../public')
@@ -96,6 +97,6 @@ app.get('*', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log('Server is up on port 3000.')
+app.listen(PORT, () => {
+    console.log('Server is up on port ' + PORT)
 })
